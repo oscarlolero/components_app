@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:components/src/providers/menu_provider.dart';
 import 'package:components/src/utils/icon_string_util.dart';
 
-import 'alert_page.dart';
+// import 'alert_page.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -38,6 +38,7 @@ class HomePage extends StatelessWidget {
           //forma tradicional
           // final route = MaterialPageRoute(builder: (context)  => AlertPage());
           // Navigator.push(context, route);
+          Navigator.pushNamed(context, opt['ruta']);
         },
       );
 
